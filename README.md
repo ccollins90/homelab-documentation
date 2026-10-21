@@ -10,14 +10,20 @@ A living portfolio documenting my Raspberry Pi-based homelab, DNS filtering, Doc
 - Pi-hole DNS filtering and Unbound recursive DNS
 - Docker-based services and persistent storage
 - Monitoring with Uptime Kuma, Prometheus, Grafana, and Node Exporter
-- Self-hosted applications and troubleshooting notes
+- Security-conscious troubleshooting and incident documentation
 
-## Repository layout
+## Documentation
 
-- `docker/` — illustrative Compose examples and container notes
-- `pihole/` — DNS architecture and operational notes
-- `docs/` — sanitized network overview and troubleshooting workflow
-- `.env.example` — placeholder environment variable names, never real values
+- [Network overview](docs/network-overview.md)
+- [Troubleshooting workflow](docs/troubleshooting.md)
+- [Pi-hole overview](pihole/README.md)
+- [DNS architecture](pihole/dns-architecture.md)
+- [Pi-hole and Unbound operations runbook](pihole/operations.md)
+- [Monitoring architecture](monitoring/README.md)
+- [Unbound trust-anchor recovery case study](case-studies/unbound-trust-anchor-recovery.md)
+- [Docker examples](docker/README.md)
+- [Example Docker Compose file](docker/compose.example.yml)
+- [Example Prometheus configuration](docker/prometheus.example.yml)
 
 ## Important limitations
 
