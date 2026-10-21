@@ -1,0 +1,42 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+*_secret*
+*_token*
+*_password*
+
+# Runtime data, databases, and backups
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+*.dump
+*.bak
+*.backup
+backups/
+data/
+database/
+mysql/
+redis-data/
+
+# Logs and generated data
+*.log
+logs/
+tmp/
+temp/
+.cache/
+.DS_Store
+Thumbs.db
+
+# Editor / OS files
+.vscode/
+.idea/
+*.swp
+*.swo
